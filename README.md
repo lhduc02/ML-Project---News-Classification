@@ -88,3 +88,8 @@ print(result)  # Chủ đề dự đoán
 ## 6. Nguồn tham khảo
 * Tham khảo các tag từ: https://vtv.vn/bao-dien-tu-vtv-news.html
 * các tag = CHÍNH TRỊ, XÃ HỘI, PHÁP LUẬT, THẾ GIỚI, KINH TẾ, THỂ THAO, TRUYỀN HÌNH, GIẢI TRÍ, SỨC KHỎE, ĐỜI SỐNG, CÔNG NGHỆ, GIÁO DỤC
+
+
+* **Ví dụ**:  
+  - **AG News Dataset**: Một trong những dataset phổ biến nhất với 4 chủ đề (*World*, *Sports*, *Business*, *Sci/Tech*).  
+  - **Reuters-21578 Dataset**: Bao gồm nhiều bài báo thuộc các lĩnh vực khác nhau.
