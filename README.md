@@ -76,7 +76,7 @@ print(result)  # Chủ đề dự đoán
 * Machine Learning/Deep Learning: Scikit-learn, TensorFlow/Keras, PyTorch.
 * Triển khai:
   - Backend: Flask/Django.
-  * Giao diện: React.js hoặc chỉ CLI đơn giản.
+  - Giao diện: React.js hoặc chỉ CLI đơn giản.
 
 
 ## 5. Dự kiến thời gian triển khai
