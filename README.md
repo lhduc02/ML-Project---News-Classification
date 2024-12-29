@@ -20,24 +20,23 @@ Bước 1: Chuẩn bị dữ liệu
 + Tùy chọn: Nếu không tìm thấy dữ liệu phù hợp, có thể tự thu thập và gán nhãn từ các nguồn tin tức như RSS feeds hoặc APIs (VD: NewsAPI).
 
 Bước 2: Tiền xử lý dữ liệu
-+ Các bước cần thực hiện:
-* Xóa HTML tags (nếu dữ liệu thu thập từ web).
-* Loại bỏ stop words (các từ không mang nhiều ý nghĩa như "a", "the", "is").
-* Tokenization: Tách bài viết thành các từ hoặc câu.
++ Xóa HTML tags (nếu dữ liệu thu thập từ web).
++ Loại bỏ stop words (các từ không mang nhiều ý nghĩa như "a", "the", "is").
++ Tokenization: Tách bài viết thành các từ hoặc câu.
 
-+ Chuyển văn bản thành số bằng cách:
-* Bag of Words (BoW).
-* TF-IDF (Term Frequency-Inverse Document Frequency).
-* Hoặc sử dụng các vector embedding tiên tiến (Word2Vec, GloVe, BERT).
+Chuyển văn bản thành số bằng cách:
++ Bag of Words (BoW).
++ TF-IDF (Term Frequency-Inverse Document Frequency).
++ Hoặc sử dụng các vector embedding tiên tiến (Word2Vec, GloVe, BERT).
 
 - Bước 3: Lựa chọn mô hình
-+ Các mô hình cơ bản:
-* Naive Bayes : Phù hợp với các bài toán nhỏ và tập dữ liệu vừa phải.
-* SVM         : Hiệu quả với dữ liệu văn bản đã qua xử lý TF-IDF.
+Các mô hình cơ bản:
++ Naive Bayes : Phù hợp với các bài toán nhỏ và tập dữ liệu vừa phải.
++ SVM         : Hiệu quả với dữ liệu văn bản đã qua xử lý TF-IDF.
 
-+ Mô hình tiên tiến hơn:
-* Deep Learning: Dùng LSTM hoặc GRU để xử lý chuỗi văn bản.
-* Transformers: Sử dụng mô hình pretrained như BERT, DistilBERT, hoặc RoBERTa từ Hugging Face.
+Mô hình tiên tiến hơn:
++ Deep Learning: Dùng LSTM hoặc GRU để xử lý chuỗi văn bản.
++ Transformers: Sử dụng mô hình pretrained như BERT, DistilBERT, hoặc RoBERTa từ Hugging Face.
 
 Ví dụ với Hugging Face:
 from transformers import pipeline
@@ -46,18 +45,18 @@ article = "The team won the championship after a thrilling final."
 result = classifier(article)
 print(result)  # Chủ đề dự đoán
 
-- Bước 4: Triển khai pipeline
+Bước 4: Triển khai pipeline
 + Kết hợp scraping hoặc lấy bài báo làm input → Tiền xử lý → Phân loại bằng mô hình.
 + Kết quả có thể hiển thị trong giao diện người dùng hoặc xuất ra file.
 
-- Bước 5: Đánh giá và cải thiện
+Bước 5: Đánh giá và cải thiện
 + Metric đánh giá:
-* Accuracy: Tỷ lệ bài báo được phân loại đúng.
-* Precision, Recall, F1-Score: Đánh giá hiệu quả của từng chủ đề.
+      * Accuracy: Tỷ lệ bài báo được phân loại đúng.
+      * Precision, Recall, F1-Score: Đánh giá hiệu quả của từng chủ đề.
 
 + Cải thiện:
-* Bổ sung dữ liệu gán nhãn mới.
-* Tinh chỉnh hyperparameters hoặc fine-tune mô hình.
+      * Bổ sung dữ liệu gán nhãn mới.
+      * Tinh chỉnh hyperparameters hoặc fine-tune mô hình.
 
 
       3. Gợi ý tính năng nổi bật
@@ -72,8 +71,8 @@ print(result)  # Chủ đề dự đoán
 + Xử lý văn bản: NLTK, SpaCy, Hugging Face Transformers.
 + Machine Learning/Deep Learning: Scikit-learn, TensorFlow/Keras, PyTorch.
 + Triển khai:
-* Backend: Flask/Django.
-* Giao diện: React.js hoặc chỉ CLI đơn giản.
+      * Backend: Flask/Django.
+      * Giao diện: React.js hoặc chỉ CLI đơn giản.
 
 
       5. Dự kiến thời gian triển khai
