@@ -29,7 +29,7 @@ Chuyển văn bản thành số bằng cách:
 + TF-IDF (Term Frequency-Inverse Document Frequency).
 + Hoặc sử dụng các vector embedding tiên tiến (Word2Vec, GloVe, BERT).
 
-- Bước 3: Lựa chọn mô hình
+Bước 3: Lựa chọn mô hình
 Các mô hình cơ bản:
 + Naive Bayes : Phù hợp với các bài toán nhỏ và tập dữ liệu vừa phải.
 + SVM         : Hiệu quả với dữ liệu văn bản đã qua xử lý TF-IDF.
@@ -51,12 +51,12 @@ Bước 4: Triển khai pipeline
 
 Bước 5: Đánh giá và cải thiện
 + Metric đánh giá:
-      * Accuracy: Tỷ lệ bài báo được phân loại đúng.
-      * Precision, Recall, F1-Score: Đánh giá hiệu quả của từng chủ đề.
+      + Accuracy: Tỷ lệ bài báo được phân loại đúng.
+      + Precision, Recall, F1-Score: Đánh giá hiệu quả của từng chủ đề.
 
 + Cải thiện:
-      * Bổ sung dữ liệu gán nhãn mới.
-      * Tinh chỉnh hyperparameters hoặc fine-tune mô hình.
+      + Bổ sung dữ liệu gán nhãn mới.
+      + Tinh chỉnh hyperparameters hoặc fine-tune mô hình.
 
 
       3. Gợi ý tính năng nổi bật
