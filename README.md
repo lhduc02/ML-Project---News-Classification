@@ -16,11 +16,12 @@
 ### Bước 1: Chuẩn bị dữ liệu
 * Dataset:  Tìm tập dữ liệu chứa các bài báo đã được gán nhãn chủ đề.
 * Ví dụ:
-            - AG News Dataset: Một trong những dataset phổ biến nhất với 4 chủ đề (World, Sports, Business, Sci/Tech).
-            - Reuters-21578 Dataset: Bao gồm nhiều bài báo thuộc các lĩnh vực khác nhau.
+            *AG News Dataset:* Một trong những dataset phổ biến nhất với 4 chủ đề (World, Sports, Business, Sci/Tech).
+            *Reuters-21578 Dataset:* Bao gồm nhiều bài báo thuộc các lĩnh vực khác nhau.
 * Tùy chọn: Nếu không tìm thấy dữ liệu phù hợp, có thể tự thu thập và gán nhãn từ các nguồn tin tức như RSS feeds hoặc APIs (VD: NewsAPI).
 
 ### Bước 2: Tiền xử lý dữ liệu
+**Các bước:**
 * Xóa HTML tags (nếu dữ liệu thu thập từ web).
 * Loại bỏ stop words (các từ không mang nhiều ý nghĩa như "a", "the", "is").
 * Tokenization: Tách bài viết thành các từ hoặc câu.
