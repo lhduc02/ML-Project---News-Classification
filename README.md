@@ -1,12 +1,12 @@
 # ML-Project---News-Classification
 
       1. Ý tưởng tổng quan
-- Mục tiêu:
+Mục tiêu:
 + Input: Nội dung của một bài báo (hoặc URL bài báo).
 + Output: Chủ đề của bài báo, ví dụ: Thể thao, Công nghệ, Y tế, v.v.
 + Mở rộng: Hệ thống có thể xử lý bài báo đa ngôn ngữ hoặc hỗ trợ người dùng tự thêm danh mục chủ đề.
 
-- Ứng dụng thực tế:
+Ứng dụng thực tế:
 Tích hợp vào công cụ quản lý thông tin để tổ chức dữ liệu.
 Cung cấp giải pháp cho các nền tảng tin tức để tự động phân loại và gợi ý nội dung.
 Xây dựng công cụ học thuật hỗ trợ nghiên cứu văn bản.
@@ -83,5 +83,5 @@ print(result)  # Chủ đề dự đoán
 
 
       6. Nguồn tham khảo
-Tham khảo các tag từ: https://vtv.vn/bao-dien-tu-vtv-news.html
-các tag = CHÍNH TRỊ, XÃ HỘI, PHÁP LUẬT, THẾ GIỚI, KINH TẾ, THỂ THAO, TRUYỀN HÌNH, GIẢI TRÍ, SỨC KHỎE, ĐỜI SỐNG, CÔNG NGHỆ, GIÁO DỤC
++ Tham khảo các tag từ: https://vtv.vn/bao-dien-tu-vtv-news.html
++ các tag = CHÍNH TRỊ, XÃ HỘI, PHÁP LUẬT, THẾ GIỚI, KINH TẾ, THỂ THAO, TRUYỀN HÌNH, GIẢI TRÍ, SỨC KHỎE, ĐỜI SỐNG, CÔNG NGHỆ, GIÁO DỤC
