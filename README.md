@@ -39,7 +39,7 @@ Mô hình tiên tiến hơn:
 + Transformers: Sử dụng mô hình pretrained như BERT, DistilBERT, hoặc RoBERTa từ Hugging Face.
 
 ```python
-Ví dụ với Hugging Face:
+# Ví dụ với Hugging Face:
 from transformers import pipeline
 classifier = pipeline("text-classification", model="distilbert-base-uncased-finetuned-sst-2-english")
 article = "The team won the championship after a thrilling final."
