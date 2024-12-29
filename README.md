@@ -38,14 +38,14 @@ Mô hình tiên tiến hơn:
 + Deep Learning: Dùng LSTM hoặc GRU để xử lý chuỗi văn bản.
 + Transformers: Sử dụng mô hình pretrained như BERT, DistilBERT, hoặc RoBERTa từ Hugging Face.
 
-/code{
+```python
 Ví dụ với Hugging Face:
 from transformers import pipeline
 classifier = pipeline("text-classification", model="distilbert-base-uncased-finetuned-sst-2-english")
 article = "The team won the championship after a thrilling final."
 result = classifier(article)
 print(result)  # Chủ đề dự đoán
-}
+```
 
 ### Bước 4: Triển khai pipeline
 + Kết hợp scraping hoặc lấy bài báo làm input → Tiền xử lý → Phân loại bằng mô hình.
