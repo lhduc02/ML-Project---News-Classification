@@ -75,8 +75,8 @@ print(result)  # Chủ đề dự đoán
 * Xử lý văn bản: NLTK, SpaCy, Hugging Face Transformers.
 * Machine Learning/Deep Learning: Scikit-learn, TensorFlow/Keras, PyTorch.
 * Triển khai:
-  - * Backend: Flask/Django.
-  - * Giao diện: React.js hoặc chỉ CLI đơn giản.
+  - Backend: Flask/Django.
+  * Giao diện: React.js hoặc chỉ CLI đơn giản.
 
 
 ## 5. Dự kiến thời gian triển khai
